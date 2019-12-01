@@ -1,0 +1,35 @@
+#!/bin/bash
+
+cd Inputes
+
+echo "First input to run: a, banana" >../Output1
+ ../maman11q2 <input1 echo >>../Output1
+echo "First input to run: a, banana"
+ ../maman11q2 <input1 
+echo ""
+echo ""
+sleep 1
+
+echo "Second input to run: b, brahmrnsbre" >../Output2
+ ../maman11q2 <input2 echo >>../Output2
+echo "Second input to run: b, brahmrnsbre"
+../maman11q2 <input2
+echo ""
+echo ""
+sleep 1
+
+echo "Third input to run: a, adadadadaaadddadada" >../Output3
+ ../maman11q2 <input3 echo >> ../Output3
+echo "Third input to run: a, adadadadaaadddadada"
+../maman11q2 <input3
+
+echo ""
+echo ""
+
+echo "Fourth input to run: o, bomboniere" >../Output4
+ ../maman11q2 <input4 echo >>../Output4
+echo "Fourth input to run: o, bomboniere"
+../maman11q2 <input4
+
+echo ""
+echo ""
